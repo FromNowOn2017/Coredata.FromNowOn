@@ -15,6 +15,8 @@
 		C336EBC5203D3A360005C9FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C336EBC3203D3A360005C9FC /* LaunchScreen.storyboard */; };
 		C336EBD0203D3A370005C9FC /* CoreData_FromNowOnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C336EBCF203D3A370005C9FC /* CoreData_FromNowOnTests.swift */; };
 		C336EBDB203D3A370005C9FC /* CoreData_FromNowOnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C336EBDA203D3A370005C9FC /* CoreData_FromNowOnUITests.swift */; };
+		C336EBEA203D3ABD0005C9FC /* ToDo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C336EBE8203D3ABD0005C9FC /* ToDo+CoreDataClass.swift */; };
+		C336EBEB203D3ABD0005C9FC /* ToDo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C336EBE9203D3ABD0005C9FC /* ToDo+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		C336EBD6203D3A370005C9FC /* CoreData.FromNowOnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreData.FromNowOnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C336EBDA203D3A370005C9FC /* CoreData_FromNowOnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData_FromNowOnUITests.swift; sourceTree = "<group>"; };
 		C336EBDC203D3A370005C9FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C336EBE8203D3ABD0005C9FC /* ToDo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C336EBE9203D3ABD0005C9FC /* ToDo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDo+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		C336EBAB203D3A360005C9FC = {
 			isa = PBXGroup;
 			children = (
+				C336EBE8203D3ABD0005C9FC /* ToDo+CoreDataClass.swift */,
+				C336EBE9203D3ABD0005C9FC /* ToDo+CoreDataProperties.swift */,
 				C336EBB6203D3A360005C9FC /* CoreData.FromNowOn */,
 				C336EBCE203D3A370005C9FC /* CoreData.FromNowOnTests */,
 				C336EBD9203D3A370005C9FC /* CoreData.FromNowOnUITests */,
@@ -263,7 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C336EBBA203D3A360005C9FC /* ViewController.swift in Sources */,
+				C336EBEA203D3ABD0005C9FC /* ToDo+CoreDataClass.swift in Sources */,
 				C336EBB8203D3A360005C9FC /* AppDelegate.swift in Sources */,
+				C336EBEB203D3ABD0005C9FC /* ToDo+CoreDataProperties.swift in Sources */,
 				C336EBC0203D3A360005C9FC /* CoreData_FromNowOn.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
